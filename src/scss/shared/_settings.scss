@@ -1,0 +1,25 @@
+.desktop-image, .tablet-image{
+    display: none;
+}
+
+
+@include media(">=phone") {
+
+    .mobile-image{
+        display: none;
+    }
+    .tablet-image{
+        display: block;
+    }
+
+  }
+
+
+  @include media( ">=small-desktop") {
+    .mobile-image, .tablet-image{
+        display: none;
+    }
+.desktop-image{
+    display: block;
+}
+  }

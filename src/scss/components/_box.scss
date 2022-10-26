@@ -1,0 +1,10 @@
+.dark-container {
+  background-color: $black;
+  color: $white;
+  padding: 20px;
+
+  .heading,
+  p {
+    color: $white;
+  }
+}

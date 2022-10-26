@@ -1,0 +1,78 @@
+#map {
+  height: 500px;
+}
+
+.location-btn{
+    position: absolute;
+    top: 0;
+    left: 1;
+    z-index: 1000;
+}
+
+.heading{
+    margin: 40px 0;
+}
+
+.description{
+    margin: 40px 0;
+}
+
+.dark-container{
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1rem;
+
+    .pink-text{
+        color: $primary;
+    }
+}
+
+.c-footer-location{
+  background-color: $primary;
+  margin: 0;
+  padding: 20px;
+
+
+  .social-image{
+    fill: black;
+  }
+}
+
+@include media(">=phone"){
+
+  .dark-container{
+  
+    .left{
+      width: 13rem;
+   
+    }
+  
+    .right{
+      width: 26rem;
+    }
+      
+  }
+
+
+
+}
+
+@include media(">=small-desktop"){
+
+  .dark-container{
+  justify-content: space-evenly;
+      
+  }
+
+  .location-btn{
+    margin-left: 10rem;
+    
+    }
+
+}
+
+.social-image{
+  fill: white;
+}

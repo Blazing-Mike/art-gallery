@@ -1,0 +1,51 @@
+
+.heading{
+  font-family: $font-family-primary;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-xl{
+font-size: 96px;
+font-weight: 900;
+line-height: 88px;
+}
+
+.heading-lg{
+font-size: 70px;
+font-weight: 800;
+line-height: 70px;
+}
+
+.heading-md{
+font-size: 60px;
+line-height: 60px;
+}
+
+.heading-sm{
+font-size: 36px;
+line-height: 36px;
+}
+
+p{
+  font-family: $font-family-secondary;
+  font-weight: 200;
+}
+
+button{
+  font-family: $font-family-primary;
+}
+
+@include media(">=tablet" ) {   
+    .heading-lg{
+    font-size: 85px;
+    line-height: 85px;
+    }
+
+    .heading-md{
+      font-size: 70px;
+line-height: 70px;
+    }
+    
+
+}

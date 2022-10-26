@@ -1,0 +1,44 @@
+.primary-btn {
+  width: 260px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  transition: all 0.3s ease;
+
+  .text,.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .text{
+    width: 80%;
+    background-color: $black;
+    font-size: 25px;
+    color: $white;
+    letter-spacing: 3.7px;
+    
+  }
+
+  .icon{
+    width: 20%;
+    background-color: $primary;
+
+    img{
+        width: 30%;
+    }
+  }
+
+  &:hover{
+    .text{
+        background-color: $primary;
+    }
+
+    .icon{
+        background-color: $black;
+    }
+  }
+}
