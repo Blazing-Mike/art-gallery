@@ -4,27 +4,25 @@
   font-weight: 900;
   text-transform: uppercase;
 }
-
+.hero-header{
+  font-family: $font-family-secondary;
+  font-weight: 300;
+}
 .heading-xl{
-font-size: 96px;
+font-size: 6rem;
 font-weight: 900;
 line-height: 88px;
 }
 
-.heading-lg{
-font-size: 70px;
-font-weight: 800;
-line-height: 70px;
-}
 
 .heading-md{
-font-size: 60px;
-line-height: 60px;
+font-size: 4.4rem;
+line-height: 4rem;
 }
 
 .heading-sm{
-font-size: 36px;
-line-height: 36px;
+font-size: 2rem;
+line-height: 2rem;
 }
 
 p{
@@ -36,16 +34,3 @@ button{
   font-family: $font-family-primary;
 }
 
-@include media(">=tablet" ) {   
-    .heading-lg{
-    font-size: 85px;
-    line-height: 85px;
-    }
-
-    .heading-md{
-      font-size: 70px;
-line-height: 70px;
-    }
-    
-
-}
